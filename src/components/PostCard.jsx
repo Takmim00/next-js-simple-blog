@@ -14,7 +14,7 @@ const PostCard = ({ data }) => {
         <h2 className="card-title">Title: {data.title}</h2>
       </div>
       <div className="card-actions justify-center">
-        <button className="btn " onClick={handleDetails}>
+        <button className="btn" onClick={handleDetails}>
           Details
         </button>
       </div>
