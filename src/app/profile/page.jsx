@@ -7,9 +7,7 @@ const Profile = async () => {
     redirect("/api/auth/login");
   }
   return (
-    <div className="flex justify-center items-center mt-16">
-      <h2 className="text-3xl font-extrabold ">Well Come to Your profile</h2>
-    </div>
+    <h2 className="text-3xl font-extrabold text-center my-28">Well Come to Your profile</h2>
   );
 };
 
